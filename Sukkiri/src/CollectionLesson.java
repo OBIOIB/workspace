@@ -19,11 +19,11 @@ public class CollectionLesson {
 		kyoto.add("陶器");
 		data.put("京都", kyoto);
 		for(String key : data.keySet()) {
-			System.out.printf("%s:%s%n",key,data,get(key));
+			System.out.printf("%s:%s%n",key,data.get(key));
 		}
 		kyoto.add("八ツ橋");
 		for(String key : data.keySet()) {
-			System.out.printf("%s:%s%n",key,data,get(key));
+			System.out.printf("%s:%s%n",key,data.get(key));
 		}
 	}
 
